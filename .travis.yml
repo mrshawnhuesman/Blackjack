@@ -1,4 +1,5 @@
 language: java
 jdk:
   - oraclejdk14
-os: windows
+install: true
+script: ./mvnw clean install

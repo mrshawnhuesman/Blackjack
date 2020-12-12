@@ -1,0 +1,54 @@
+Dec 12, 2020 4:59:13 PM Controller.Controller playBlackjack
+INFO: Prompting user to buy chips
+Dec 12, 2020 4:59:15 PM View.CLIView askPlayerToBuyChips
+INFO: Model.Player purchased 500 chips
+Dec 12, 2020 4:59:15 PM Controller.Controller playBlackjack
+INFO: Promping user to make bet
+Dec 12, 2020 4:59:17 PM View.CLIView askPlayerToMakeBet
+INFO: Model.Player bet amount: 300
+Dec 12, 2020 4:59:17 PM Controller.Controller playBlackjack
+INFO: Dealing and showing cards
+Dec 12, 2020 4:59:17 PM Controller.Controller showCards
+INFO: player dealt card: | TEN of Diamonds| 
+Dec 12, 2020 4:59:17 PM Controller.Controller showCards
+INFO: player dealt card: | THREE of Clubs| 
+Dec 12, 2020 4:59:17 PM Controller.Controller showCards
+INFO: dealer dealt card: | TWO of Spades| 
+Dec 12, 2020 4:59:17 PM Controller.Controller playBlackjack
+INFO: Asking player to hit, stand, or double
+Dec 12, 2020 4:59:17 PM View.CLIView askPlayerToMakeMove
+INFO: Model.Player is not double eligible with hand size: 2 and score: 13
+Dec 12, 2020 4:59:20 PM View.CLIView askPlayerToMakeMove
+INFO: Model.Player chose move: h with input: java.util.Scanner[delimiters=\p{javaWhitespace}+][position=2][match valid=true][need input=false][source closed=false][skipped=false][group separator=\x{2c}][decimal separator=\x{2e}][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q∞\E]
+Dec 12, 2020 4:59:20 PM Controller.Controller playBlackjack
+INFO: Handling user move
+Dec 12, 2020 4:59:20 PM Controller.Controller handleUserMove
+INFO: handling player hit
+Dec 12, 2020 4:59:20 PM Controller.Controller handleUserMove
+INFO: player will be asked to make another move after hit
+Dec 12, 2020 4:59:20 PM View.CLIView askPlayerToMakeMove
+INFO: Model.Player is not double eligible with hand size: 3 and score: 14
+Dec 12, 2020 4:59:22 PM View.CLIView askPlayerToMakeMove
+INFO: Model.Player chose move: h with input: java.util.Scanner[delimiters=\p{javaWhitespace}+][position=2][match valid=true][need input=false][source closed=false][skipped=false][group separator=\x{2c}][decimal separator=\x{2e}][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q∞\E]
+Dec 12, 2020 4:59:22 PM Controller.Controller showCards
+INFO: player dealt card: | TEN of Diamonds| 
+Dec 12, 2020 4:59:22 PM Controller.Controller showCards
+INFO: player dealt card: | THREE of Clubs| 
+Dec 12, 2020 4:59:22 PM Controller.Controller showCards
+INFO: player dealt card: | ACE of Spades| 
+Dec 12, 2020 4:59:22 PM Controller.Controller showCards
+INFO: dealer dealt card: | TWO of Spades| 
+Dec 12, 2020 4:59:22 PM Controller.Controller playBlackjack
+INFO: Deciding winner
+Dec 12, 2020 4:59:22 PM Controller.Controller decideWinner
+INFO: calculating winner
+Dec 12, 2020 4:59:22 PM Controller.Controller decideWinner
+INFO: winner is player due to higher score than dealer
+Dec 12, 2020 4:59:22 PM Controller.Controller decideWinner
+INFO: player received chip award for winning: 600
+Dec 12, 2020 4:59:22 PM Controller.Controller decideWinner
+INFO: player's bet reset to 0
+Dec 12, 2020 4:59:22 PM Controller.Controller playBlackjack
+INFO: Starting another blackjack round if not testing
+Dec 12, 2020 4:59:22 PM Controller.Controller playBlackjack
+INFO: Prompting user to buy chips
